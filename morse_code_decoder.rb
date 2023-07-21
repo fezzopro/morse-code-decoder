@@ -1,5 +1,4 @@
 ALPHABETS = {
-
 '.-' => 'A',
 '-...' => 'B',
 '-.-.' => 'C',
@@ -39,18 +38,18 @@ ALPHABETS = {
 '.-.-.-' => '.',
 '--..--' => ',',
 '..--..' => '?',
-'.----.' => "'" ,
+'.----.' => "'",
 '-.-.--' => '!',
 '-..-.' => '/',
 '-.--.' => '(',
 '-.--.-' => ')',
 '.-...' => '&',
 '---...' => ':',
-'-.-.-.' => ';',
+'-.-.-.' => ';'
 }
 
 def decode_char(char)
-  return ALPHABETS[char]
+  ALPHABETS[char]
 end
 
 def decode_word(word)
@@ -60,8 +59,8 @@ def decode_word(word)
     decoded_word += decode_char(char.to_s.upcase)
     decoded_word += ' '
   end
-  
-  return decoded_word.rstrip
+
+  decoded_word.rstrip
 end
 
 def decode(sentense)
@@ -71,7 +70,7 @@ def decode(sentense)
     decoded_sentence += decode_word(word)
     decoded_sentence += '   '
   end
-  return decoded_sentence.rstrip
+  decoded_sentence.rstrip
 end
 
 puts decode '.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...'

@@ -1,3 +1,6 @@
+<div align="center" width="50px">
+  <img src="image.png" height="70px" />
+</div>
 <a name="readme-top"></a>
 
 <div align="center">
@@ -102,7 +105,7 @@ In order to run this project you need: Node.js
 👤 **Felix KAMANA**
 
 - GitHub: [@githubhandle](https://github.com/fezzopro)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/kamana-felix/)
+- LinkedIn: [KAMANA-Felix](https://www.linkedin.com/in/kamana-felix/)
 
 👤 **Peter Akhigbe**
 

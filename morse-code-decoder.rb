@@ -64,8 +64,6 @@ def decode_word(word)
   return decoded_word.rstrip
 end
 
-# 
-
 def decode(sentense)
   decoded_sentence = ''
   words_array = sentense.to_s.split('   ')

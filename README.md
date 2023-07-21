@@ -102,7 +102,7 @@ In order to run this project you need: Node.js
 👤 **Felix KAMANA**
 
 - GitHub: [@githubhandle](https://github.com/fezzopro)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/felix-kamana/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/kamana-felix/)
 
 👤 **Peter Akhigbe**
 

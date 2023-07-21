@@ -67,10 +67,11 @@ end
 def decode(sentense)
   decoded_sentence = ''
   words_array = sentense.to_s.split('   ')
-  puts words_array
   words_array.each do |word|
     decoded_sentence += decode_word(word)
     decoded_sentence += '   '
   end
   return decoded_sentence.rstrip
 end
+
+puts decode '.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...'

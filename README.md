@@ -13,7 +13,6 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-    - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -51,15 +50,6 @@ A simple Morse Decoder Ruby Script.
 ### Key Features <a name="key-features"></a>
 
 - **Morse Decoder**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo & Presentation <a name="live-demo"></a>
-
-- No live-demo
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

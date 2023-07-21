@@ -52,3 +52,14 @@ ALPHABETS = {
 def decode_char(char)
   return ALPHABETS[char]
 end
+
+def decode_word(word)
+  decoded_word = ''
+  char_array = word.split(' ')
+  char_array.each do |char|
+    decoded_word += decode_char(char.to_s.upcase)
+    decoded_word += ' '
+  end
+  
+  return decoded_word.rstrip
+end
